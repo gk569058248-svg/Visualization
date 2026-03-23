@@ -21,7 +21,7 @@ if upload_file:
     fig, ax = plt.subplots()
     ax.plot(time, mag)
 
-    ax.set_xlabel("时间 （s）")
-    ax.set_ylabel("磁场强度（pT）")
-    ax.set_title("磁场强度随时间变化图")
+    ax.set_xlabel("Time (s)")
+    ax.set_ylabel("Magnetic Field Intensity (pT)")
+    ax.set_title("Time VS. Magnetic Field Intensity")
     st.pyplot(fig)
